@@ -1,35 +1,35 @@
-# 祝你好心情！
+#统筹方法是世界上最大的方法！
 
-我是 orphanwarrior，计算机科学本科，有 5 年电学专利代理行业经验。现在，我想把对业务的理解和开发能力结合起来，做一些能用起来的 AI 产品。
+本人21届CS本科，5年电学专利代理行业经验。现在，我想把对业务的理解和开发能力结合起来，做一些能用起来的AI产品。
 
-我正在寻找 **FDE、AI 应用开发和 AI 产品方向**的机会。下面是我做的两个项目：一个来自专利撰写工作，一个来自我自己准备代理师考试的需要。
+我正在寻找**FDE、AI应用开发和AI产品方向**的机会。下面是我做的两个项目：一个来自专利撰写工作，一个来自我自己准备代理师考试的需要。
 
-## 028 / TTC：我在做的 AI 专利撰写工具
+##028/TTC：我在做的AI专利撰写工具
 
-做专利撰写，交底材料只是起点。真正花心思的地方，是从里面理清技术方案、确定保护范围，再把权利要求、附图和说明书衔接起来。
+专利撰写，交底材料只是起点。真正花时间的地方，是从里面理清技术方案、确定保护范围，再把权利要求、附图和说明书衔接起来。
 
-我想把这个过程做成一个工作台：AI 先提炼和起草，我来决定采纳什么、修改什么、什么时候可以进入下一步。项目的需求、流程设计、实现选择和测试迭代都由我推进，开发中使用了 Codex 等 AI 编程工具。
+我想把这个过程做成一个工作台，AI先提炼和起草，我来决定采纳什么、修改什么、什么时候可以进入下一步。项目的需求、流程设计、实现选择和测试迭代都由我推进，开发中使用了一些主流AI编程工具。
 
-我在这个项目里花了不少精力处理“生成之后”的问题。比如，模型还在生成，我已经改了前面的权利要求，返回来的结果还能不能用？再比如，新一轮生成失败了，之前改好的稿子能不能保住？这些问题，也是我做版本绑定、确认快照和失败恢复的原因。
+这个项目里最主要的精力投入是处理“生成之后”的问题。比如，模型还在生成，我已经改了前面的权利要求，返回来的结果还能不能用？再比如，新一轮生成失败了，之前改好的稿子能不能保住？这些问题，也是我做版本绑定、确认快照和失败恢复的原因。
 
-**主要技术：Next.js、React、TypeScript、SQLite、大模型 HTTP 接口**
+**主要技术：Next.js、React、TypeScript、SQLite、大模型HTTP接口**
 
-[看看 TTC](https://github.com/orphanwarrior/028-ttc-showcase) · [我做过的几个工程取舍](https://github.com/orphanwarrior/028-ttc-showcase/blob/main/docs/ENGINEERING_DECISIONS.md)
+[看看TTC](https://github.com/orphanwarrior/028-ttc-showcase)·[我做过的几个工程取舍](https://github.com/orphanwarrior/028-ttc-showcase/blob/main/docs/ENGINEERING_DECISIONS.md)
 
-![TTC 案件工作台](https://raw.githubusercontent.com/orphanwarrior/028-ttc-showcase/main/assets/screenshots/workbench.jpg)
+![TTC案件工作台](https://raw.githubusercontent.com/orphanwarrior/028-ttc-showcase/main/assets/screenshots/workbench.jpg)
 
 *真实应用界面，截图使用独立的合成测试数据。*
 
-TTC 目前在内测。这里公开了产品介绍、架构和界面，产品源码与专业规则仍然保留在私有仓库。
+TTC目前在内测。这里公开了产品介绍、架构和界面，产品源码与专业规则仍然保留在私有仓库。
 
-## 专利代理师考试学习系统
+##专利代理师考试学习系统
 
-这个小工具是我准备代理师考试时做的。可以随机出题、看解析，也能把错题和收藏留到后面复习，查看自己的学习记录。
+这个小工具是之前准备代理师考试时做的，也在和同事内部使用。可以随机出题、看解析，也能把错题和收藏留到后面复习，查看自己的学习记录。
 
-它比 TTC 简单很多，但可以直接打开体验，不需要注册。学习数据保存在当前浏览器里。
+它比TTC简单很多，但可以直接打开体验，不需要注册。学习数据保存在当前浏览器里。
 
-**主要技术：HTML、CSS、JavaScript、GitHub Pages**
+**主要技术：HTML、CSS、JavaScript、GitHubPages**
 
-[打开练习系统](https://orphanwarrior.github.io/test-web/study.html) · [查看代码和介绍](https://github.com/orphanwarrior/test-web)
+[打开练习系统](https://orphanwarrior.github.io/test-web/study.html)·[查看代码和介绍](https://github.com/orphanwarrior/test-web)
 
 我希望继续做这类事情：从具体的需求出发，把想法做出来，再通过使用、测试和修改，让它越来越好用。
