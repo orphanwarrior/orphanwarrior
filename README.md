@@ -1,33 +1,35 @@
 # 祝你好心情！
 
-I have a computing background and experience in patent agency work. I build tools around that work, from a small exam practice app to an AI-assisted drafting system.
+我是 orphanwarrior，计算机科学本科，有 5 年电学专利代理行业经验。现在，我想把对业务的理解和开发能力结合起来，做一些能用起来的 AI 产品。
 
-I'm looking for **FDE and AI product roles**. My main project is TTC: I define the requirements and review process, work through the engineering decisions, and test the results. I use AI coding tools throughout development.
+我正在寻找 **FDE、AI 应用开发和 AI 产品方向**的机会。下面是我做的两个项目：一个来自专利撰写工作，一个来自我自己准备代理师考试的需要。
 
-cs本科，5年电学专利代理行业经验。目前主要在做 TTC，把实际撰写流程中的问题做成SAAS。
+## 028 / TTC：我在做的 AI 专利撰写工具
 
-## 028 / TTC — patent drafting workflow
+做专利撰写，交底材料只是起点。真正花心思的地方，是从里面理清技术方案、确定保护范围，再把权利要求、附图和说明书衔接起来。
 
-A practitioner uploads a technical disclosure, reviews the proposed solution, then works through claims, drawings and specification text.
+我想把这个过程做成一个工作台：AI 先提炼和起草，我来决定采纳什么、修改什么、什么时候可以进入下一步。项目的需求、流程设计、实现选择和测试迭代都由我推进，开发中使用了 Codex 等 AI 编程工具。
 
-One problem I spent time on: a model can return a result after its inputs have changed. TTC records the confirmed versions used by each run and checks them again before publishing. Failed attempts keep their drafts and leave the previous usable version intact.
+我在这个项目里花了不少精力处理“生成之后”的问题。比如，模型还在生成，我已经改了前面的权利要求，返回来的结果还能不能用？再比如，新一轮生成失败了，之前改好的稿子能不能保住？这些问题，也是我做版本绑定、确认快照和失败恢复的原因。
 
-**Next.js · React · TypeScript · SQLite · HTTP model APIs**
+**主要技术：Next.js、React、TypeScript、SQLite、大模型 HTTP 接口**
 
-[Project and architecture](https://github.com/orphanwarrior/028-ttc-showcase) · [Engineering decisions](https://github.com/orphanwarrior/028-ttc-showcase/blob/main/docs/ENGINEERING_DECISIONS.md)
+[看看 TTC](https://github.com/orphanwarrior/028-ttc-showcase) · [我做过的几个工程取舍](https://github.com/orphanwarrior/028-ttc-showcase/blob/main/docs/ENGINEERING_DECISIONS.md)
 
-![TTC workbench](https://raw.githubusercontent.com/orphanwarrior/028-ttc-showcase/main/assets/screenshots/workbench.jpg)
+![TTC 案件工作台](https://raw.githubusercontent.com/orphanwarrior/028-ttc-showcase/main/assets/screenshots/workbench.jpg)
 
-*Real application UI in an isolated synthetic test environment.*
+*真实应用界面，截图使用独立的合成测试数据。*
 
-The application and its professional rules are private; the showcase explains the design and what has been tested.
+TTC 目前在内测。这里公开了产品介绍、架构和界面，产品源码与专业规则仍然保留在私有仓库。
 
-## Patent Exam Practice
+## 专利代理师考试学习系统
 
-I made this for my patent agent exam preparation. It offers random questions, explanations, wrong-answer review, favorites and learning statistics. Records stay in the browser.
+这个小工具是我准备代理师考试时做的。可以随机出题、看解析，也能把错题和收藏留到后面复习，查看自己的学习记录。
 
-**HTML · CSS · JavaScript · GitHub Pages**
+它比 TTC 简单很多，但可以直接打开体验，不需要注册。学习数据保存在当前浏览器里。
 
-[Try it](https://orphanwarrior.github.io/test-web/study.html) · [Source](https://github.com/orphanwarrior/test-web)
+**主要技术：HTML、CSS、JavaScript、GitHub Pages**
 
-The two projects reflect what I want to work on: understand a user's task, build something usable, and deal with the parts that go wrong after the first successful run.
+[打开练习系统](https://orphanwarrior.github.io/test-web/study.html) · [查看代码和介绍](https://github.com/orphanwarrior/test-web)
+
+我希望继续做这类事情：从具体的需求出发，把想法做出来，再通过使用、测试和修改，让它越来越好用。
