@@ -1,10 +1,10 @@
-# 祝您好心情！
+# 祝你好心情！
 
 I have a computing background and experience in patent agency work. I build tools around that work, from a small exam practice app to an AI-assisted drafting system.
 
 I'm looking for **FDE and AI product roles**. My main project is TTC: I define the requirements and review process, work through the engineering decisions, and test the results. I use AI coding tools throughout development.
 
-计算机背景，有专利代理行业经验。目前主要在做 TTC，把实际撰写流程中的问题做成软件。
+计算机背景，5年电学专利代理行业经验。目前主要在做 TTC，把实际撰写流程中的问题做成SAAS。
 
 ## 028 / TTC — patent drafting workflow
 
