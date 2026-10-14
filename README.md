@@ -16,7 +16,7 @@
 
 **主要技术：Next.js、React、TypeScript、SQLite、大模型HTTP接口**
 
-[看看TTC](https://github.com/orphanwarrior/028-ttc-showcase)·[我做过的几个工程取舍](https://github.com/orphanwarrior/028-ttc-showcase/blob/main/docs/ENGINEERING_DECISIONS.md)
+[看看TTC](https://github.com/orphanwarrior/028-ttc-showcase)
 
 ![TTC案件工作台](https://raw.githubusercontent.com/orphanwarrior/028-ttc-showcase/main/assets/screenshots/workbench.jpg)
 
